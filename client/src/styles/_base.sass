@@ -1,0 +1,40 @@
+// File: _base.scss
+
+@import './_variables'
+
+*
+    margin: 0
+    padding: 0
+    outline: 0
+    box-sizing: border-box
+
+html, body 
+    // height: 100vh
+    height: -webkit-fill-available
+
+    width: 100vw
+    color: white
+
+html
+    font-family: "Lato", "Arial", sans-serif
+    font-size: 20px
+    text-rendering: optimizeLegibility
+    overflow-x: hidden
+    overflow-y: hidden
+
+body
+    color: $fg-color
+    background-color: $bg-color
+
+.hyperlink
+    cursor: pointer
+
+.eye
+    cursor: pointer
+
+::-webkit-scrollbar
+    width: 10px
+    box-shadow: none
+
+::-webkit-scrollbar-thumb
+    border-radius: 10px
